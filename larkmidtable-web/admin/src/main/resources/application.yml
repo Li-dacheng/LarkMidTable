@@ -4,7 +4,6 @@ server:
 
 
 spring:
-  #数据源
   datasource:
     username: root
     password: ldc123
@@ -111,10 +110,11 @@ flinkx:
     logretentiondays: 30
   executor:
     flinkxHome: D:/Download/flinkx/flinkx.py
-    jsonPath: D:/Download/flinkx/job/
-    logHome: D:/Download/flinkx/nohup.out
-    dataxPyHome: D:/Download/flinkx/datax.py
-    dataxHome: D:/Download/flinkx/datax
+    flinkxjsonPath: D:/Download/flinkx/job/
+    flinkxlogHome: D:/Download/flinkx/job-log
+    dataxHome: D:/Download/datax/datax.py
+    dataxjsonPath: D:/Download/datax/job/
+    dataxlogHome: D:/Download/datax/job-log
 
 
 datasource:

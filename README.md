@@ -28,24 +28,6 @@ LarkMidTable 是一站式开源的数据中台，实现元数据管理，数据�
 
 ![系统架构图](https://img2020.cnblogs.com/blog/622382/202010/622382-20201019215540747-440767668.jpg ) 
 
-
-
-# 产品技术选型
-
-| 组件                     | 用途       |
-| ------------------------ | ---------- |
-| clickhouse/doris         | 离线数仓   |
-| kafka                    | 实时数仓   |
-| datax,flinkx             | 数据集成   |
-| flink,flinkcdc,seatunnel | 数据开发   |
-| promicuse                | 数据监控   |
-| druid                    | 数据服务   |
-| datart                   | 数据可视化 |
-| cdh                      | 大数据平台 |
-| dolphin                  | 任务调度   |
-
-
-
 # 产品效果图
 
 ![登陆页面](https://img2022.cnblogs.com/blog/622382/202201/622382-20220124162212117-942279447.jpg)
@@ -62,13 +44,13 @@ LarkMidTable 是一站式开源的数据中台，实现元数据管理，数据�
 
 **只供 测试 和 商业赞助的客户 使用，服务器流量有限谢谢合作，赞助后加微信 LarkMidTable2021 ，可以领取大数据学习资料 以及 演示地址的用户名和密码 **
 
+
+
 # **快速开始**
 
 安装手册      [安装手册](https://github.com/wxgzgl/flinkx-web/blob/dev/larkmidtable-doc/userGuid.md)
 
 操作手册  	[操作手册](https://github.com/wxgzgl/LarkMidTable/tree/dev/larkmidtable-doc/userManual.md)
-
-测试完成的功能	  [测试完成的功能](https://github.com/wxgzgl/LarkMidTable/tree/dev/larkmidtable-doc/function.md)
 
 产品的开发计划      [产品的开发计划](https://github.com/birdLark/LarkMidTable/issues/87) 
 
@@ -110,6 +92,26 @@ LarkMidTable 是一站式开源的数据中台，实现元数据管理，数据�
 | 微众银行     | 0.01元 |      |                      |         |      |            |      |      |
 
 **疯狂的挖掘机 提供域名 www.larkmidtable.cn 和 服务器3台，一台官网，一台数据库，一台放演示的产品**
+
+# 产品版本
+
+| 模块     | 子模块       | 功能点                                | 版本  |
+| -------- | ------------ | ------------------------------------- | ----- |
+| 基础建设 | 项目管理     | 新增  项目管理，已测试                | 0.1.0 |
+|          | 用户登陆     | 新增  用户登陆 ，已测试               | 0.1.0 |
+|          | 数据源管理   | 支持   MySQL、Oracle、Hana            | 0.1.0 |
+|          |              | 支持   PostGreSQL、SQLServer、Hive    | 0.1.0 |
+|          |              | 支持   Hbase、Mongodb、Clickhouse、ES | 0.2.0 |
+|          | 资源管理     | 新增 资源管理，已测试                 | 0.1.0 |
+| 数据集成 | 任务模板     | 新增 任务模板                         | 0.2.0 |
+|          | 任务构建     | 生成Flinkx任务                        | 0.2.0 |
+|          |              | 生成Datax任务                         | 0.2.0 |
+|          | 实例管理     | 新增实例、运行任务                    | 0.2.0 |
+|          | 日志管理     | 查看运行日志，清除运行日志            | 0.2.0 |
+| 监控告警 | 资源监控     | CPU使用率，内存使用率                 | 0.2.0 |
+| 数据开发 | 开发环境配置 | 新增 开发环境配置，已测试             | 0.1.0 |
+
+
 
 
 
